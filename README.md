@@ -1,16 +1,14 @@
 # Ubuntu dotfiles
 
-## Requirements
-
-* [Ubuntu](http://www.ubuntu.com) >= 12.04
-
 ## Installation
 
-
+There is no install script at this time, you have to copy manually the files.
 
 ## Features
 
+Configuration files for:
 
+* Git
 
 ## License
 

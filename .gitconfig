@@ -8,7 +8,7 @@
 [credential]
 	helper = cache --timeout=3600
 [alias]
-	st = status -vb
+	st = status
 	co = checkout
 	ci = commit -a -m
 	ps = push origin HEAD

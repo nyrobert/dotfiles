@@ -10,7 +10,7 @@
 [alias]
 	st = status -vb
 	co = checkout
-	ci = commit
+	ci = commit -a -m
 	ps = push origin HEAD
 	dt = difftool -y
 	mergenf = merge --no-ff

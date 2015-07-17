@@ -8,10 +8,10 @@
 [credential]
 	helper = cache --timeout=3600
 [alias]
-	st = status -sb
+	st = status -vb
 	co = checkout
 	ci = commit
-	ps = push origin HE	AD
+	ps = push origin HEAD
 	dt = difftool -y
 	mergenf = merge --no-ff
 	cp = cherry-pick

@@ -9,7 +9,7 @@ There is no install script at this time, you have to copy the files manually
   cp .bash* .git[[:alpha:]]?* .inputrc .screenrc .curlrc .wgetrc ~ && exec $SHELL -l
   ```
 
-Create `.gitconfig_local` file for storing sensitive Git information.
+Create `~/.gitconfig_local` file for storing sensitive Git information.
 
 ## Features
 

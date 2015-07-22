@@ -8,6 +8,7 @@ There is no install script at this time, you have to copy manually the files.
 
 Configuration files for:
 
+* Bash
 * Git
 
 ## License

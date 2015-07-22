@@ -1,0 +1,6 @@
+if [ -d "$HOME/bin" ] ; then
+	PATH="$HOME/bin:$PATH"
+fi
+
+# PHP / Composer
+export PATH="~/.composer/vendor/bin:$PATH"

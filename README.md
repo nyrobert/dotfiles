@@ -6,7 +6,15 @@ There is no install script at this time, you have to copy the files manually
 (and reload the shell):
 
   ```shell
-  cp .bash* .git[[:alpha:]]?* .inputrc .screenrc .curlrc .wgetrc .nanorc ~ && exec $SHELL -l
+  cp \
+	.bash* \
+	.git[[:alpha:]]?* \
+	.inputrc \
+	.screenrc \
+	.curlrc \
+	.wgetrc \
+	.nanorc \
+  ~ && exec $SHELL -l
   ```
 
 Create `~/.gitconfig_local` file for storing sensitive Git information.

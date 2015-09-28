@@ -1,6 +1,9 @@
-if [ -d "$HOME/bin" ] ; then
-	PATH="$HOME/bin:$PATH"
-fi
+paths=($HOME/bin ~/.composer/vendor/bin)
 
-# PHP / Composer
-export PATH="~/.composer/vendor/bin:$PATH"
+for i in "${paths[@]}"; do
+  if [ -d "$i" ]; then
+    PATH=$PATH:$i
+  fi
+done 
+
+export PATH

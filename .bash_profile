@@ -9,7 +9,7 @@ elif [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
 fi
 
-export HISTTIMEFORMAT='%F %T '
+export HISTTIMEFORMAT="%F %T "
 export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTFILESIZE=$HISTSIZE

@@ -1,12 +1,12 @@
 for file in ~/.{bash_path,bash_exports,bash_aliases,bash_prompt}; do
-	[ -r "$file" ] && source "$file"
+  [ -r "$file" ] && . "$file"
 done
 unset file
 
 if [ -f /usr/share/bash-completion/bash_completion ]; then
-	. /usr/share/bash-completion/bash_completion
+  . /usr/share/bash-completion/bash_completion
 elif [ -f /etc/bash_completion ]; then
-	. /etc/bash_completion
+  . /etc/bash_completion
 fi
 
 export HISTTIMEFORMAT='%F %T '

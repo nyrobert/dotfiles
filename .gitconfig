@@ -1,35 +1,35 @@
 [core]
-	autocrlf = input
-	editor = nano
-	attributesfile = ~/.gitattributes
-	excludesfile = ~/.gitignore
+        autocrlf = input
+        editor = nano
+        attributesfile = ~/.gitattributes
+        excludesfile = ~/.gitignore
 [include]
-	path = ~/.gitconfig_local
+        path = ~/.gitconfig_local
 [credential]
-	helper = cache --timeout=3600
+        helper = cache --timeout=3600
 [alias]
-	st = status
-	co = checkout
-	ci = commit -a -m
-	ps = push origin HEAD
-	dt = difftool -y
-	mergenf = merge --no-ff
-	cp = cherry-pick
-	cpn = cherry-pick -n
+        st = status
+        co = checkout
+        ci = commit -a -m
+        ps = push origin HEAD
+        dt = difftool -y
+        mergenf = merge --no-ff
+        cp = cherry-pick
+        cpn = cherry-pick -n
 [grep]
-	lineNumber = true
+        lineNumber = true
 [color]
-	ui = auto
+        ui = auto
 [color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
+        current = yellow reverse
+        local = yellow
+        remote = green
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+        added = yellow
+        changed = green
+        untracked = cyan

@@ -1,5 +1,6 @@
 [core]
         autocrlf = input
+        safecrlf = true
         editor = nano
         attributesfile = ~/.gitattributes
         excludesfile = ~/.gitignore

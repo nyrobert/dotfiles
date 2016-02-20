@@ -1,10 +1,12 @@
-paths=($HOME/bin ~/.composer/vendor/bin)
+paths[0]=$HOME/bin
+paths[1]=~/.composer/vendor/bin
+paths[2]=/usr/local/go/bin
 
 for i in "${paths[@]}"; do
   if [ -d "$i" ]; then
     PATH=$PATH:$i
   fi
-done 
+done
 unset i
 
 export PATH

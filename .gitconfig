@@ -6,8 +6,6 @@
         excludesfile = ~/.gitignore
 [include]
         path = ~/.gitconfig_local
-[credential]
-        helper = cache --timeout=3600
 [alias]
         st = status
         co = checkout

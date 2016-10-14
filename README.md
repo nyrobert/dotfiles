@@ -1,4 +1,4 @@
-# Ubuntu dotfiles
+# dotfiles
 
 ## Installation
 

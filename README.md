@@ -18,8 +18,7 @@ There is no install script at this time, you have to copy the files manually
   ```
 
 Create `~/.gitconfig_local` file for storing sensitive Git information.
-You can also create `~/.bash_local` for your private configuration
-(items that don't belong to be committed to a git repo).
+You can also create `~/.bash_local` for your private configuration.
 
 ## Features
 

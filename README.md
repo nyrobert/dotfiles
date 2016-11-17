@@ -2,6 +2,12 @@
 
 ## Installation
 
+First get the `git-completion.bash` script and put it in your home directory:
+
+  ```shell
+  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+  ```
+
 There is no install script at this time, you have to copy the files manually
 (and reload the shell):
 

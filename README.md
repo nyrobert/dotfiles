@@ -13,13 +13,13 @@ There is no install script at this time, you have to copy the files manually
 
   ```shell
   cp \
-	.bash* \
-	.git[[:alpha:]]?* \
-	.inputrc \
-	.screenrc \
-	.curlrc \
-	.wgetrc \
-	.nanorc \
+  .bash* \
+  .git[[:alpha:]]?* \
+  .inputrc \
+  .screenrc \
+  .curlrc \
+  .wgetrc \
+  .nanorc \
   .vimrc \
   ~ && exec $SHELL -l
   ```

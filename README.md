@@ -20,6 +20,7 @@ There is no install script at this time, you have to copy the files manually
 	.curlrc \
 	.wgetrc \
 	.nanorc \
+  .vimrc \
   ~ && exec $SHELL -l
   ```
 

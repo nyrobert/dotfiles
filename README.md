@@ -37,6 +37,7 @@ Configuration files for:
 * cURL
 * Wget
 * nano
+* Vim
 
 ## License
 

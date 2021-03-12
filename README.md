@@ -29,6 +29,11 @@ You can also create `~/.bash_local` for your private configuration.
 
 ## Features
 
+Environment variables for:
+
+* Go
+* PHP Composer
+
 Configuration files for:
 
 * Bash

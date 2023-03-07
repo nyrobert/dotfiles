@@ -32,7 +32,6 @@ You can also create `~/.bash_local` for your private configuration.
 Environment variables for:
 
 * Go
-* PHP Composer
 
 Configuration files for:
 

@@ -1,6 +1,5 @@
 paths[0]=$HOME/bin
 paths[1]=$GOPATH/bin
-paths[2]=~/.composer/vendor/bin
 
 for i in "${paths[@]}"; do
   PATH=$PATH:$i
